@@ -1,0 +1,132 @@
+html{
+    background: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+body
+{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+    animation: fade 1s ease-in;
+}
+@keyframes fade {
+    from { opacity: 0; transform: translateY(20px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+h2{
+    text-align: left;
+    color: #784343;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.start{
+  display: flex;
+   align-items: center; 
+  justify-content: space-between;
+
+
+}
+.social { 
+   background: #b35c5c;
+  color: white;
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.social:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 0 20px #ff6b6b;
+}
+.social-1 {
+  background: #ffffff;
+  color: white;
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.social-1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.profile-img {
+  width: 200px;         
+  height: 200px;
+  margin: 50px auto;    
+  border-radius: 50%;    
+  overflow: hidden;     
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.profile-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.7); 
+}
+
+.profile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.navbar a {
+  color: rgb(254, 189, 189);       
+  text-decoration: none; 
+  font-weight: bold;   
+  font-size: 25px;     
+  margin: 0 18px;    
+ text-align: right;
+ box-shadow: 0 0 20px #ff6b6b;
+  transition: 0.3s;
+}
+.navbar a:hover {
+  color: #a44444;     
+  
+}
+
+
+.navbar a.active {
+    color:#a44444;
+    border-bottom: 2px solid #ff6b6b;
+    box-shadow: 0 0 20px #ff6b6b;
+}
+
+.div
+{
+   
+    color: #000000;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 50px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+.pragraph
+{
+    color: #ffe0e0;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 50px;
+    max-width: 600px;
+    font-size: 30px;
+}

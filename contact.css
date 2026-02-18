@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(135deg,#000,#1a1a1a);
+    font-family: Segoe UI;
+    color: white;
+    text-align: center;
+    padding: 20px;  
+    animation: fade 1s ease-in;
+
+}
+@keyframes fade {
+    from { opacity: 0; transform: translateY(20px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+.contact-box {
+    width: 350px;
+    margin: 80px auto;
+    padding: 30px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 50%;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.sub {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor:pointer;
+    transition: 0.3s;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+button {
+    margin-top: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    background: #ff6b6b;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+button:hover {
+    box-shadow: 0 0 20px #ff6b6b;
+}
+
+.button a{
+  color: rgb(254, 189, 189);       
+  text-decoration: none; 
+  font-weight: bold ;
+  text-align: center ;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}

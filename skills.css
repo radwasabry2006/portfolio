@@ -1,0 +1,99 @@
+html  {
+    background: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    padding: 20px;
+}
+body
+{
+    color: #f4f1f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;animation: fade 1s ease-in;
+}
+@keyframes fade {
+    from { opacity: 0; transform: translateY(20px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+h1{
+    color: #bd6767;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight :bold ;
+}
+
+
+.skill, .Course, .Languages-container {
+    background-color: #ffffff;
+    color: #000000;
+    border: 3px solid #420303; 
+    border-radius: 15px;      
+    padding: 20px;             
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 8px 12px rgba(0,0,0,0.2); 
+     transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.skill:hover, .Course:hover , .Languages-container:hover {
+    border: 3px solid #b18181;
+    transform: translateY(-5px); 
+    box-shadow: 0 12px 20px rgba(0,0,0,0.4);
+}
+.skill, .Course ,.Languages-container {
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skills-container, .Courses-container, .Languages-container {
+    display: flex;             
+    flex-direction: column;    
+    align-items: center;       
+    text-align: center;
+    gap: 20px;                
+}
+
+button{
+    background-color: #aa4c4c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor:pointer;
+    transition: 0.3s;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.button a{
+  color: rgb(254, 189, 189);       
+  text-decoration: none; 
+  font-weight: bold ;
+  text-align: center ;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons {
+    display: flex;
+      flex-direction: row;
+    gap: 15px; 
+    justify-content: center; 
+    margin-top: 30px; }
+
+button:hover {
+    background-color: #bd6767;
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px rgba(85, 44, 44, 0.3);
+    box-shadow: 0 0 20px #ff6b6b;
+}
